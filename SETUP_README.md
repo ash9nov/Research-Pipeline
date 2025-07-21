@@ -242,3 +242,4 @@ _Web link_: https://www.ensembl.org/info/docs/tools/vep/script/vep_plugins.html
     mkdir -p Variant_data/LOVD
 ```
 ![Directory structure](image.png)
+![image](/uploads/e034e90926946093f8429f1ebda300cd/image.png)
