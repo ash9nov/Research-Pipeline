@@ -3,47 +3,6 @@
 #Loading the PATHs configurations:
         . /data/AKS_data/Research_pipleine/code/PATHs.conf
 
-#Binder declartation (for path variables defined in PATHs.configs)
-# BINDERS=(
-        #         -B $data:/data \
-        #         -B $HG38:/HG38 \
-        #         -B $GRCh_v37_decoy:/GRCh_v37_decoy \
-        #         -B $VEP_cache:/VEP_cache \
-        #         -B $VEP_PLUGINS_DATA:/VEP_PLUGINS_DATA \
-        #         -B $Functional_effect:/Functional_effect \
-        #         -B $MaveDB:/MaveDB \
-        #         -B $Gene_tolerance_to_change:/Gene_tolerance_to_change \
-        #         -B $DosageSensitivity:/DosageSensitivity \
-        #         -B $LOEUF:/LOEUF \
-        #         -B $pLI:/pLI \
-        #         -B $Motif:/Motif \
-        #         -B $FunMotifs:/FunMotifs \
-        #         -B $Nearby_features:/Nearby_features \
-        #         -B $Downstream:/Downstream \
-        #         -B $TSSDistance:/TSSDistance \
-        #         -B $Pathogenicity_predictions:/Pathogenicity_predictions \
-        #         -B $dbNSFP:/dbNSFP \
-        #         -B $LOFTEE:/LOFTEE \
-        #         -B $Phenotype_data_and_citations:/Phenotype_data_and_citations \
-        #         -B $DisGeNET:/DisGeNET \
-        #         -B $Mastermind:/Mastermind \
-        #         -B $SatMutMPRA:/SatMutMPRA \
-        #         -B $Regulatory_impact:/Regulatory_impact \
-        #         -B $Enformer:/Enformer \
-        #         -B $Splicing_predictions:/Splicing_predictions \
-        #         -B $SpliceAI:/SpliceAI \
-        #         -B $Structural_variant_data:/Structural_variant_data \
-        #         -B $CNV_annotation_CUSTOM:/CNV_annotation_CUSTOM \
-        #         -B $StructuralVariantOverlap:/StructuralVariantOverlap \
-        #         -B $Transcript_annotation:/Transcript_annotation \
-        #         -B $NMD:/NMD \
-        #         -B $RiboseqORFs:/RiboseqORFs \
-        #         -B $UTRAnnotator:/UTRAnnotator \
-        #         -B $Variant_data:/Variant_data \
-        #         -B $LOVD:/LOVD \
-        #         -B $IP_DIR:/IP_DIR \
-        #         -B $OP_DIR:/OP_DIR
-        # )
         
 #Loading the VEP Singularity
         singularity run "${BINDERS[@]}" $VEPsif
